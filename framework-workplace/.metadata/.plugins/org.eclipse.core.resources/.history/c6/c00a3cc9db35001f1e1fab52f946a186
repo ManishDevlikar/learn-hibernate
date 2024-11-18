@@ -1,0 +1,12 @@
+package com.version21.skipvariable;
+
+public class SkipVariable {
+	public static void main(String[] args) {
+		try {
+			int a = 12 / 0;
+			System.out.println(a);
+		} catch (Exception _) {
+			System.out.println("error");
+		}
+	}
+}
